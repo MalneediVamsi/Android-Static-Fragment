@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    tools:ignore="ExtraText">
+
+    <fragment
+        android:id="@+id/fragment1"
+        android:name="com.vamsi.malneedi.staticfragment.FirstFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        tools:layout="@layout/firstfragment" />
+
+    <fragment
+        android:id="@+id/fragment2"
+        android:name="com.vamsi.malneedi.staticfragment.SecondFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        tools:layout="@layout/secondfragment" />
+
+</LinearLayout>

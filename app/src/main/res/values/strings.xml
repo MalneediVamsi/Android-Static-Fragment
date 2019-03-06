@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">StaticFragment</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="bname">Click Me</string>
+    <string name="name">Hello</string>
+    <string name="cname">Load</string>
+    <string name="hi">Third Fragment</string>
+    <string name="sh">First Fragment</string>
+    <string name="j">Second Fragment</string>
+</resources>
